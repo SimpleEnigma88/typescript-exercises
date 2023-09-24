@@ -11,10 +11,10 @@ const car: Vehicle = {
     speed: 120,
     accelerate(): void {
         console.log(`The ${this.brand} is accelerating`);
-    }
+    },
     brake(): void {
         console.log(`The ${this.brand} is braking`);
-    }
+    },
 }
 
 car.accelerate();

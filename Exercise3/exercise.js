@@ -7,7 +7,7 @@ const car = {
     },
     brake() {
         console.log(`The ${this.brand} is braking`);
-    }
+    },
 };
 car.accelerate();
 car.brake();
